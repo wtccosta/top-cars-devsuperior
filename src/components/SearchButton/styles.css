@@ -1,0 +1,34 @@
+.search-card {
+    padding: 16px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #ededed;
+    margin-bottom: 20px;
+  }
+  
+  .input-place input {
+    min-width: 50px;
+    border: 1px blue solid;
+    border-radius: 5px 0 0 5px;
+    height: 35px;
+  }
+  
+  .search-button button {
+    height: 35px;
+    border-radius: 0 5px 5px 0;
+  }
+
+  @media (min-width: 768px) {
+    .input-place input {
+        width: 300px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .input-place input {
+        width: 400px;
+    }
+  }
+  

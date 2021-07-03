@@ -1,0 +1,31 @@
+.btn-container {
+    display: flex;
+}
+
+.btn-container button {
+    width: 220px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.btn h6 {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 576px) {
+
+    .btn-container button {
+        width: 200px;
+        padding: 5px 0px;
+        padding: 15px 30px;
+    }
+
+    .btn h6 {
+        font-size: 0.8em;
+    }
+
+ 
+}
